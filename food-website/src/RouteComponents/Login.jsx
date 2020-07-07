@@ -52,7 +52,7 @@ export default class Form extends Component {
                             <label className="mt-2">Password : </label>
                             <input name="password" type="password"  value={password}  placeholder="Enter Password" onChange = {this.handleChange} className="form-control"></input>
 
-                            <small>username :admin ,password :admin</small>
+                            <h4>username :admin ,password :admin</h4>
                        </div>
                     </form>
                     <div className="d-flex justify-content-center">
